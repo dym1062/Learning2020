@@ -14,4 +14,9 @@ git push
 ## 一些别的常见命令
 touch abc.txt 建立一个文件
 mkdir abc 建立一个空文件夹  
-git log  查看历史记录，按q退出  
+git log  可选参数 --pretty=oneline 查看历史记录，按q退出  
+git reflog 查看历史操作  
+git reset --hard commit_id 回退
+git reset --hard HEAD^ 回退到上一个版本 HEAD^^ HEAD^^^  
+
+
