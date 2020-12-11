@@ -18,5 +18,7 @@ git log  可选参数 --pretty=oneline 查看历史记录，按q退出
 git reflog 查看历史操作  
 git reset --hard commit_id 回退
 git reset --hard HEAD^ 回退到上一个版本 HEAD^^ HEAD^^^  
+git checkout -- abc.txt 将工作区中文件回到上次add或commit的时候  
+git reset HEAD abc.tet 可以把暂存区的修改撤销掉，重新放回工作区  
 
 
